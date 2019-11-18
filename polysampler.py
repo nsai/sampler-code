@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
+
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import time
 import argparse
 from constraints import Constraint
@@ -72,7 +74,7 @@ if __name__ == '__main__':
     points = points[np.random.choice(len(points), size=args.n_results)]
     np.savetxt(args.outfile, points)
 
-    x, y = points.T[0:2]
+#    x, y = points.T[0:2]
 
-    plt.scatter(x, y, s=1)
-    plt.show()
+#    plt.scatter(x, y, s=1)
+#    plt.show()
