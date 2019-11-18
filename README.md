@@ -5,4 +5,4 @@ Requirement: python3, numpy
 
 How to run : python polysampler.py  <input_file> <output_file> <n_results>
 
-Example: "python polysampler.py   mixture.txt mixture.out 1000"
+Also can run as executable: "./polysampler.py mixture.txt mixture.out 1000"
